@@ -26,12 +26,44 @@
         flex-direction: column;
         border-radius: 5px;
       }
+
+      #popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0%;
+        right: 0%;
+        width: 100wv;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.75);
+        overflow: scroll;
+      }
+
+      #popup article {
+        width: 86vw;
+        padding: 2%;
+        object-fit: contain;
+        background-color: #fffef3;
+      }
+
+      #popup article img {
+        object-fit: contain;
+        height: unset;
+      }
     </style>
   </head>
   <body>
     <header>
       <div class="logo"><img src="billeder/AST.svg" alt="" /></div>
       <button id="bmenu" class="toggle-btn">☰</button>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="ostene.html">Vores oste</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <aside id="popup">
       <article>

@@ -70,3 +70,36 @@ header {
   top: 10%;
   left: 25%;
 }
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+
+.toggle-btn {
+  background: transparent;
+  color: #572723;
+  border: none;
+  display: block;
+  min-width: 50px;
+  min-height: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+}
+
+nav.shown {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: column;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
