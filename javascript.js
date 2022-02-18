@@ -5,7 +5,7 @@ const options = {
   },
 };
 const main = document.querySelector("section ");
-const template = document.querySelector(" template").content;
+const template = document.querySelector("main template").content;
 const popup = document.querySelector("#popup");
 
 let oste;
