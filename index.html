@@ -5,13 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <div><img src="" alt="" /></div>
+      <div class="logo"><img src="billeder/AST.svg" alt="" /></div>
       <button id="bmenu" class="toggle-btn">☰</button>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section id="splash">
+        <div class="splashbillede">
+          <img src="billeder/ostsplash.jpg" alt="" />
+        </div>
+        <div class="logopostionen">
+          <img class="slogan" src="billeder/slogan.svg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <address>Lokation: Guldbergsgade 29N, 2200 København</address>
+      <div class="somelogo">
+        <img class="ikoner" src="billeder/some_logo-01.svg" alt="" />
+        <img class="ikoner" src="billeder/some_logo-02.svg" alt="" />
+        <img class="ikoner" src="billeder/some_logo-03.svg" alt="" />
+      </div>
+      <div class="mail">
+        <label for="E-mail">
+          E-mail
+          <input
+            placeholder="fx gittemor@gmail.com"
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+        </label>
+      </div>
+      <div class="bekræft">
+        <button class="bekraeft_knap">Tilmeld</button>
+      </div>
+    </footer>
   </body>
 </html>

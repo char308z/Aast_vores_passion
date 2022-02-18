@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div><img src="billeder/AST.svg" alt="" /></div>
+      <button id="bmenu" class="toggle-btn">☰</button>
+    </header>
+    <aside id="popup">
+      <article>
+        <img src="" alt="" />
+        <h2 class="navn"></h2>
+        <p class="type"></p>
+        <p class="alder"></p>
+        <p class="land"></p>
+        <p class="beskrivelse"></p>
+      </article>
+    </aside>
+    <main>
+      <h1></h1>
+      <div>
+        <button data-type="alle" class="valgt">Alle</button>
+        <button data-type="frisk_ost">Frisk ost</button>
+        <button data-type="blød_ost">Blød ost</button>
+        <button data-type="semi_blød_ost">Semi blød ost</button>
+        <button data-type="semi_hård_ost">Semi hård ost</button>
+        <button data-type="hård_ost">Hård ost</button>
+        <button data-type="skimmelost">Skimmelost</button>
+      </div>
+      <section></section>
+
+      <template>
+        <article>
+          <img src="" alt="" />
+          <h2 class="navn"></h2>
+          <p class="type"></p>
+          <p class="land"></p>
+        </article>
+      </template>
+    </main>
+    <footer>
+      <address>Lokation: Guldbergsgade 29N, 2200 København</address>
+      <div class="somelogo">
+        <img class="ikoner" src="billeder/some_logo-01.svg" alt="" />
+        <img class="ikoner" src="billeder/some_logo-02.svg" alt="" />
+        <img class="ikoner" src="billeder/some_logo-03.svg" alt="" />
+      </div>
+      <div class="mail">
+        <label for="E-mail">
+          E-mail
+          <input
+            placeholder="fx gittemor@gmail.com"
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+        </label>
+      </div>
+      <div class="bekræft">
+        <button class="bekraeft_knap">Tilmeld</button>
+      </div>
+    </footer>
+  </body>
+</html>
