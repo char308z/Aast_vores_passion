@@ -8,12 +8,16 @@ img {
 }
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0.5rem;
 }
 
 h1 {
   font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
 }
 
 .somelogo {
