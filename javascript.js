@@ -4,8 +4,8 @@ const options = {
     "x-apikey": "620f92ae34fd6215658587d4",
   },
 };
-const main = document.querySelector("section main");
-const template = document.querySelector("section template").content;
+const main = document.querySelector("section ");
+const template = document.querySelector(" template").content;
 const popup = document.querySelector("#popup");
 
 let oste;
@@ -41,13 +41,12 @@ function visOste() {
     if (filter == ost.type || filter == "alle") {
       let klon = template.cloneNode(true);
       klon.querySelector(".navn").textContent = ost.navn;
-      klon.querySelector(".kortbeskrivelse").textContent = ost.kortbeskrivelse;
-      klon.querySelector(".pris").textContent = "Pris: " + ost.pris + " kr.";
+      klon.querySelector(".type").textContent = ost.type;
+      klon.querySelector(".land").textContent = "Land: " + ost.land;
       klon.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
       klon
         .querySelector("article")
         .addEventListener("click", () => visDetaljer(ost));
-      klon.querySelector("article").classList.add(ost.kategori);
       main.appendChild(klon);
     }
   });
@@ -57,11 +56,12 @@ function visDetaljer(ost) {
   console.log(ost);
   popup.style.display = "block";
   popup.querySelector(".navn").textContent = ost.navn;
-  popup.querySelector(".langbeskrivelse").textContent = ost.langbeskrivelse;
-  popup.querySelector(".pris").textContent = "Pris: " + ost.pris + " kr.";
-  popup.querySelector("img").src = "medium/" + ost.billednavn + "-md.jpg";
+  popup.querySelector(".beskrivelse").textContent = ost.beskrivelse;
+  popup.querySelector(".type").textContent = ost.type;
+  popup.querySelector(".land").textContent = "Land: " + ost.land;
+  popup.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
 }
 
 popup
-  .querySelector("#lukKnap")
+  .querySelector("#popup")
   .addEventListener("click", () => (popup.style.display = "none"));

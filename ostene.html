@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      section {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 5px;
+        margin: 1% 10% 5% 10%;
+      }
+      article {
+        margin: 2%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -26,12 +47,12 @@
       <h1></h1>
       <div>
         <button data-type="alle" class="valgt">Alle</button>
-        <button data-type="frisk_ost">Frisk ost</button>
-        <button data-type="blød_ost">Blød ost</button>
-        <button data-type="semi_blød_ost">Semi blød ost</button>
-        <button data-type="semi_hård_ost">Semi hård ost</button>
-        <button data-type="hård_ost">Hård ost</button>
-        <button data-type="skimmelost">Skimmelost</button>
+        <button data-type="Friskost">Frisk ost</button>
+        <button data-type="Blød ost">Blød ost</button>
+        <button data-type="Semi blød ost">Semi blød ost</button>
+        <button data-type="Semi hård ost">Semi hård ost</button>
+        <button data-type="Hård ost">Hård ost</button>
+        <button data-type="Skimmelost">Skimmelost</button>
       </div>
       <section></section>
 
@@ -67,5 +88,7 @@
         <button class="bekraeft_knap">Tilmeld</button>
       </div>
     </footer>
+
+    <script src="javascript.js"></script>
   </body>
 </html>
