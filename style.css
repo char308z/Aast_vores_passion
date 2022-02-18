@@ -8,16 +8,17 @@ img {
 }
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0.5rem;
 }
-.slogan {
-  filter: blue;
+
+h1 {
+  font-size: 3rem;
 }
 
 .somelogo {
   display: flex;
-  justify-content: center;
+  gap: 10%;
 }
 .ikoner {
   width: 50px;
@@ -45,18 +46,27 @@ header {
   margin-right: 4%;
 }
 
-.splashbillede {
+#splash {
+  background-image: url(/billeder/ostsplash.jpg);
   position: relative;
-  text-align: center;
   top: 0;
   left: 0;
-  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.logopostionen {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  z-index: 2;
+.splashbillede {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.slogan {
+  width: 70rem;
+  height: 70rem;
+  position: relative;
+  top: 10%;
+  left: 25%;
 }
