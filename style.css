@@ -8,11 +8,6 @@ img {
   /* height: 300px;
   object-fit: cover; */
 }
-footer {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 0.5rem;
-}
 
 h1 {
   font-size: 3.5rem;
@@ -51,6 +46,10 @@ header {
   width: 20%;
 }
 
+#logo:hover {
+  cursor: pointer;
+}
+
 #bmenu {
   position: fixed;
   top: 0%;
@@ -64,7 +63,9 @@ header {
   top: 0;
   right: 0%;
   position: absolute;
-  background-color: #d9923bbb;
+  background-color: #d9923be3;
+  width: 100%;
+  padding-top: 50%;
 }
 
 /* burgermenu */
@@ -99,7 +100,7 @@ nav ul {
   display: flex;
   flex-flow: column;
   list-style: none;
-
+  gap: 40px;
   margin: 0;
   padding: 0;
 }
@@ -119,6 +120,12 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid black;
+}
+
+.footer-col {
+  padding-top: 2rem;
 }
 
 footer p {
@@ -132,6 +139,7 @@ footer p {
   border-radius: 5px;
   text-align: center;
   padding: 2%;
+  cursor: pointer;
 }
 
 h4 {
