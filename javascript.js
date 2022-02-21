@@ -7,7 +7,7 @@ const options = {
 const main = document.querySelector("section");
 const template = document.querySelector("main template").content;
 const popup = document.querySelector("#popup");
-
+const header = document.querySelector("h1");
 let oste;
 let filter = "alle";
 
@@ -40,6 +40,7 @@ function filtrerOste() {
   filter = this.dataset.type;
   document.querySelector(".valgt").classList.remove("valgt");
   this.classList.add("valgt");
+  header.textContent = this.textContent;
   visOste();
 }
 

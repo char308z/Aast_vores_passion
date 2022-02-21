@@ -94,12 +94,16 @@ article img {
   top: 7px;
   left: 7px;
   transition: 0.2s;
-  z-index: -2;
 }
 
 .fill:hover::after {
   top: 0px;
   left: 0px;
+}
+
+.valgt {
+  background-color: #efd77a;
+  top: 0;
 }
 
 .placerknapper {
