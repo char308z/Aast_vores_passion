@@ -54,7 +54,9 @@ header {
   top: 0;
   right: 0%;
   position: absolute;
-  background-color: #d9923bbb;
+  background-color: #d9923be3;
+  width: 100%;
+  padding-top: 50%;
 }
 
 /* burgermenu */
@@ -89,7 +91,7 @@ nav ul {
   display: flex;
   flex-flow: column;
   list-style: none;
-
+  gap: 40px;
   margin: 0;
   padding: 0;
 }
