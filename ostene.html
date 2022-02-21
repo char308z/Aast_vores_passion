@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vores Oste</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="ostene.css" />
   </head>
   <body>
     <header>
-      <div class="logo"><img src="billeder/AST.svg" alt="" /></div>
-      <button id="bmenu" class="toggle-btn">☰</button>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="ostene.html">Vores oste</a></li>
-          </ul>
-        </nav>
-      </div>
+      <div id="logo"><img src="billeder/AST.svg" alt="" /></div>
     </header>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Forside</a></li>
+        <li><a href="ostene.html">Vores oste</a></li>
+      </ul>
+    </nav>
+    <button id="bmenu" class="toggle-btn">☰</button>
+
     <aside id="popup">
       <article>
         <img src="" alt="" />
@@ -32,15 +32,22 @@
       </article>
     </aside>
     <main>
-      <h1></h1>
-      <div>
-        <button data-type="alle" class="valgt">Alle</button>
-        <button data-type="Friskost">Frisk ost</button>
-        <button data-type="Blød ost">Blød ost</button>
-        <button data-type="Semi blød ost">Semi blød ost</button>
-        <button data-type="Semi hård ost">Semi hård ost</button>
-        <button data-type="Hård ost">Hård ost</button>
-        <button data-type="Skimmelost">Skimmelost</button>
+      <div class="ostegrid">
+        <h1>VORES OSTE</h1>
+
+        <div class="placerknapper">
+          <button data-type="alle" class="fill valgt">Alle</button>
+          <button data-type="Friskost" class="fill">Frisk ost</button>
+          <button data-type="Blød ost" class="fill">Blød ost</button>
+          <button data-type="Semi blød ost" class="fill">Semi blød ost</button>
+          <button data-type="Semi hård ost" class="fill spanbtn1">
+            Semi hård ost
+          </button>
+          <button data-type="Hård ost" class="fill spanbtn2">Hård ost</button>
+          <button data-type="Skimmelost" class="fill spanbtn3">
+            Skimmelost
+          </button>
+        </div>
       </div>
       <section></section>
 

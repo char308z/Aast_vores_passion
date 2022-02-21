@@ -2,7 +2,7 @@
 // Lav en variabel, der refererer til ".toggle-btn"
 const btn = document.querySelector(".toggle-btn");
 // Lav en variabel, der refererer til "nav"
-const menu = document.querySelector(".menu nav");
+const menu = document.querySelector("#menu");
 
 // Lav en function, der hedder toggleMenu()
 function toggleMenu() {
