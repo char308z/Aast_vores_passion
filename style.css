@@ -42,14 +42,8 @@ header {
 
 #logo {
   width: 20%;
-}
-
-<<<<<<< HEAD #logo:hover {
   cursor: pointer;
 }
-=======
->>>>>>> origin/bmenu-v2
-
 
 /* burgermenu */
 
@@ -57,6 +51,7 @@ header {
   position: fixed;
   top: 0%;
   right: 0%;
+  z-index: 3;
 }
 
 #menu {
