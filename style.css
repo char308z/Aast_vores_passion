@@ -16,10 +16,18 @@ footer {
 
 h1 {
   font-size: 3rem;
+  font-family: "ltc-bodoni-175", serif;
+}
+
+h2 {
+  font-family: "ltc-bodoni-175", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .somelogo {
