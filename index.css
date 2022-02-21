@@ -1,24 +1,17 @@
 #splash {
-  background-image: url(/billeder/ostsplash.jpg);
-  position: relative;
-  top: 0;
-  left: 0;
+  grid-column: 1/4;
+  grid-row: 1/2;
   width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.splashbillede {
-  position: relative;
-  top: 0;
-  left: 0;
 }
 
 .slogan {
-  width: 70rem;
-  height: 70rem;
-  position: relative;
-  top: 10%;
-  left: 10%;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
 }
