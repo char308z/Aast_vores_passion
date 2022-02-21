@@ -32,26 +32,17 @@ p {
 }
 
 header {
-  top: 0;
   display: flex;
-  justify-content: space-between;
-  margin: 1rem;
+  justify-content: center;
+  padding: 2%;
 }
 
-.logo {
-  display: inline-block;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  width: 300px;
-  height: 200px;
+#logo {
+  width: 20%;
 }
 
 #bmenu {
-  place-self: center;
-  width: 50px;
-  height: 40px;
-  margin-right: 4%;
-  position: absolute;
+  position: fixed;
   top: 0%;
   right: 0%;
 }
@@ -63,7 +54,7 @@ header {
   top: 0;
   right: 0%;
   position: absolute;
-  background-color: #d9923b82;
+  background-color: #d9923bbb;
 }
 
 /* burgermenu */
