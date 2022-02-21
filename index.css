@@ -7,11 +7,12 @@
 .slogan {
   grid-column: 2/3;
   grid-row: 1/2;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  place-self: center;
+  align-self: center;
 }
 
-section {
+main {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
 }
