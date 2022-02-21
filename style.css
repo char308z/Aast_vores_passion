@@ -84,3 +84,50 @@ nav ul {
   display: flex;
   flex-flow: column;
 }
+
+/*FOOTER*/
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+.bekraeft_knap {
+  /* border: none; */
+  background-color: #fffef2;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2%;
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
+.mail {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    gap: 20px;
+  }
+  .bekraeft_knap {
+    /* border: none; */
+    background-color: #fffef2;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+  }
+}
