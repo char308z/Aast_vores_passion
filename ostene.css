@@ -60,8 +60,9 @@ article img {
   height: unset;
 }
 .fill {
+  font-family: "poppins", sans-serif;
   font-size: 12px;
-  font-weight: 180;
+  font-weight: 150;
   letter-spacing: 1px;
   padding: 10px 30px 10px;
   outline: 0;
