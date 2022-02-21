@@ -14,7 +14,13 @@ body {
 }
 
 h1 {
+  margin-top: 1rem;
   margin-left: 2rem;
+  text-decoration: underline 1px;
+}
+
+h2 {
+  margin-top: 0.5rem;
 }
 section {
   display: grid;
@@ -101,6 +107,7 @@ article img {
 .ostegrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border-bottom: 0.5px;
 }
 
 .spanbtn1 {
