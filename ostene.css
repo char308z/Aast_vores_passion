@@ -114,6 +114,10 @@ article img {
   grid-column: 2 / 3;
 }
 
+footer {
+  border-top: 1px solid black;
+}
+
 @media screen and (max-width: 800px) {
   .placerknapper button {
     width: 90px;
