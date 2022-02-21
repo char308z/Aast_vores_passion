@@ -52,31 +52,6 @@ header {
   margin-right: 4%;
 }
 
-#splash {
-  background-image: url(/billeder/ostsplash.jpg);
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.splashbillede {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.slogan {
-  width: 70rem;
-  height: 70rem;
-  position: relative;
-  top: 10%;
-  left: 10%;
-}
-
 /* burgermenu */
 .toggle-btn {
   display: none;
@@ -108,41 +83,4 @@ nav.shown {
 nav ul {
   display: flex;
   flex-flow: column;
-}
-
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 5px;
-}
-article {
-  margin: 2%;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  border-radius: 5px;
-}
-
-#popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0%;
-  right: 0%;
-  width: 100wv;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.75);
-  overflow: scroll;
-}
-
-#popup article {
-  width: 86vw;
-  padding: 2%;
-  object-fit: contain;
-  background-color: #fffef3;
-}
-
-#popup article img {
-  object-fit: contain;
-  height: unset;
 }

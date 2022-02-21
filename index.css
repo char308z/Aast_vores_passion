@@ -1,0 +1,24 @@
+#splash {
+  background-image: url(/billeder/ostsplash.jpg);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.splashbillede {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.slogan {
+  width: 70rem;
+  height: 70rem;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
