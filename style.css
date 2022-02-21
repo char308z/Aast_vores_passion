@@ -57,7 +57,7 @@ header {
 #menu {
   height: 100vh;
   position: fixed;
-  width: 38%;
+  width: 26%;
   top: 0;
   right: 0%;
   background-color: #d9923be3;
@@ -94,8 +94,6 @@ nav.shown {
 }
 
 nav ul {
-  grid-column: 2/3;
-  grid-row: 2/3;
   display: flex;
   flex-flow: column;
   list-style: none;
@@ -108,7 +106,7 @@ nav ul a {
   color: #fffef2;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  letter-spacing: 1px;
   padding: 15%;
   cursor: pointer;
 }

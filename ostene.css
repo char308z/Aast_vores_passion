@@ -34,6 +34,7 @@ article {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 article img {
