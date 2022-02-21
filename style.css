@@ -8,6 +8,10 @@ img {
   /* height: 300px;
   object-fit: cover; */
 }
+body {
+  background-color: #fffef2;
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -16,10 +20,18 @@ footer {
 
 h1 {
   font-size: 3rem;
+  font-family: "ltc-bodoni-175", serif;
+}
+
+h2 {
+  font-family: "ltc-bodoni-175", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .somelogo {
