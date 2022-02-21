@@ -67,7 +67,7 @@ article img {
   object-fit: contain;
   height: unset;
 }
-button {
+.fill {
   font-family: "poppins", sans-serif;
   font-size: 12px;
   font-weight: 150;
@@ -83,7 +83,7 @@ button {
   height: 50px;
 }
 
-button::after {
+.fill::after {
   content: "";
   background-color: #efd77a;
   /* background-image: url(billeder/ostebaggrund.png); */
@@ -97,7 +97,7 @@ button::after {
   z-index: -2;
 }
 
-button:hover::after {
+.fill:hover::after {
   top: 0px;
   left: 0px;
 }
@@ -113,7 +113,7 @@ button:hover::after {
   border-bottom: 0.5px;
 }
 
-#spanbtn1 {
+.spanbtn1 {
   grid-column: 2 / 3;
 }
 
