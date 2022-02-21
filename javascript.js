@@ -4,7 +4,7 @@ const options = {
     "x-apikey": "620f92ae34fd6215658587d4",
   },
 };
-const main = document.querySelector("section ");
+const main = document.querySelector("section");
 const template = document.querySelector("main template").content;
 const popup = document.querySelector("#popup");
 
@@ -13,19 +13,19 @@ let filter = "alle";
 
 document.addEventListener("DOMContentLoaded", start);
 function start() {
-  const filterKnapper = document.querySelectorAll("section nav button");
+  console.log("start");
+  const filterKnapper = document.querySelectorAll("main div nav button");
   filterKnapper.forEach((knap) => {
-    knap.classList.add(knap.dataset.type);
     knap.addEventListener("click", filtrerOste);
   });
 
   hentdata();
 
-  document.querySelector("#logo").addEventListener("click", forside)
+  document.querySelector("#logo").addEventListener("click", forside);
 }
 
-function forside (){
-  console.log("forsideHop")
+function forside() {
+  console.log("forsideHop");
   window.location.href = "index.html";
 }
 
@@ -36,6 +36,7 @@ async function hentdata() {
 }
 
 function filtrerOste() {
+  console.log("flitrer");
   filter = this.dataset.type;
   document.querySelector(".valgt").classList.remove("valgt");
   this.classList.add("valgt");
@@ -43,6 +44,7 @@ function filtrerOste() {
 }
 
 function visOste() {
+  console.log("vis oste");
   main.textContent = "";
   oste.forEach((ost) => {
     if (filter == ost.type || filter == "alle") {
