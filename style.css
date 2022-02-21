@@ -39,6 +39,8 @@ header {
   width: 20%;
 }
 
+/* burgermenu */
+
 #bmenu {
   position: fixed;
   top: 0%;
@@ -48,30 +50,28 @@ header {
 #menu {
   height: 100vh;
   position: fixed;
-  width: 100%;
+  width: 38%;
   top: 0;
   right: 0%;
-  position: absolute;
   background-color: #d9923be3;
-  display: grid;
-  grid-template-rows: 0.5fr 1fr 2fr;
-  grid-template-columns: 0.5fr 2fr 1fr;
+  /* padding-top: 22%; */
+  z-index: 2;
 }
 
-/* burgermenu */
 .toggle-btn {
   display: none;
 }
 
 .toggle-btn {
   background: transparent;
-  color: #572723;
+  color: #333;
   border: none;
   display: block;
   min-width: 50px;
   min-height: 40px;
   font-size: 4rem;
   cursor: pointer;
+  margin: 2%;
 }
 
 nav {
@@ -94,15 +94,15 @@ nav ul {
   list-style: none;
   gap: 40px;
   margin: 0;
-  padding: 0;
+  padding-top: 52%;
 }
 
 nav ul a {
-  color: beige;
+  color: #fffef2;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 20px;
+  padding: 15%;
   cursor: pointer;
 }
 
@@ -138,6 +138,9 @@ h4 {
 @media (max-width: 600px) {
   #menu {
     width: 100%;
+    /* padding-top: 50%; */
+  }
+  nav ul {
     padding-top: 50%;
   }
 

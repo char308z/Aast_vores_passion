@@ -19,9 +19,11 @@ function toggleMenu() {
   // 2. Spørg om menu i if-sætningen => if (menu)
   if (menuShown) {
     btn.textContent = "˟";
+    btn.style.color = "#fffef2";
     // hvis nav har klassen "shown", sæt da btn.textContent til "Luk"
   } else {
-    btn.textContent = "☰ ";
+    btn.textContent = "☰";
+    btn.style.color = "#333";
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
   }
 }
