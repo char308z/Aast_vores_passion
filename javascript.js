@@ -20,6 +20,13 @@ function start() {
   });
 
   hentdata();
+
+  document.querySelector("#logo").addEventListener("click", forside)
+}
+
+function forside (){
+  console.log("forsideHop")
+  window.location.href = "index.html";
 }
 
 async function hentdata() {
