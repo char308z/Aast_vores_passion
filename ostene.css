@@ -125,11 +125,11 @@ footer {
   border-top: 1px solid black;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .placerknapper button {
     width: 90px;
     height: 48px;
-    font-size: 10px;
+    font-size: 9px;
     padding: 7px 20px 7px;
   }
   .placerknapper {

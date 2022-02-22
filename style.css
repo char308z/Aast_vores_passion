@@ -194,15 +194,26 @@ h4 {
   }
   .bekraeft_knap {
     /* border: none; */
-    background-color: #fffef2;
+    background-color: rgba(0, 0, 0, 0);
     color: black;
-    border-radius: 5px;
+    border: 0.5px solid black;
     text-align: center;
-    padding: 1%;
+    padding: 3px 9px 3px;
   }
 
   #bmenu {
     top: 0.5%;
     right: 2%;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
   }
 }
