@@ -20,10 +20,14 @@ function toggleMenu() {
   if (menuShown) {
     btn.textContent = "˟";
     btn.style.color = "#fffef2";
+    btn.style.fontSize = "5rem";
+
     // hvis nav har klassen "shown", sæt da btn.textContent til "Luk"
   } else {
     btn.textContent = "☰";
     btn.style.color = "#333";
+    btn.style.fontSize = "3rem";
+
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
   }
 }

@@ -16,7 +16,6 @@ body {
 h1 {
   margin-top: 1rem;
   margin-left: 2rem;
-  text-decoration: underline 1px;
 }
 
 h2 {
@@ -104,6 +103,7 @@ article img {
 .valgt {
   background-color: #efd77a;
   top: 0;
+  text-decoration: underline 0.5px;
 }
 
 .placerknapper {
