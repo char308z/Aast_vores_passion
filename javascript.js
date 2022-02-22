@@ -64,10 +64,11 @@ function visOste() {
 
 function visDetaljer(ost) {
   console.log(ost);
-  popup.style.display = "block";
+  popup.style.display = "flex";
   popup.querySelector(".navn").textContent = ost.navn;
   popup.querySelector(".beskrivelse").textContent = ost.beskrivelse;
   popup.querySelector(".type").textContent = ost.type;
+  popup.querySelector(".alder").textContent = "Modnings periode: " + ost.alder;
   popup.querySelector(".land").textContent = "Land: " + ost.land;
   popup.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
 }

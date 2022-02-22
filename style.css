@@ -23,9 +23,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   font-family: "Poppins", sans-serif;
   color: #333;
+  font-weight: lighter;
+  text-transform: uppercase;
 }
 
 p {
@@ -60,7 +62,7 @@ header {
   position: absolute;
   top: 3%;
   right: 3%;
-  z-index: 3;
+  z-index: 2;
 }
 
 #menu {
