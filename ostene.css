@@ -135,10 +135,18 @@ footer {
   .placerknapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
   }
 
   .ostegrid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .alleknap {
+    grid-column: 2 / 4;
+  }
+  .spanbtn1 {
+    grid-column: 1 / 2;
   }
 }
