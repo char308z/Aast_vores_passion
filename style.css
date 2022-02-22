@@ -130,13 +130,35 @@ footer p {
 }
 
 .bekraeft_knap {
-  /* border: none; */
-  background-color: #fffef2;
+  border: 0.5px solid black;
+  background-color: rgba(0, 0, 0, 0);
   color: black;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   text-align: center;
-  padding: 2%;
+  padding: 3px 9px 3px;
   cursor: pointer;
+  letter-spacing: 1px;
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  position: relative;
+}
+
+.bekraeft_knap::after {
+  content: "";
+  background-color: #efd77a;
+  /* background-image: url(billeder/ostebaggrund.png); */
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+}
+.bekraeft_knap:hover::after {
+  top: 0px;
+  left: 0px;
 }
 
 h4 {
@@ -144,7 +166,9 @@ h4 {
 }
 
 .mail {
+  display: flex;
   padding-bottom: 1rem;
+  gap: 10px;
 }
 
 @media (max-width: 600px) {
