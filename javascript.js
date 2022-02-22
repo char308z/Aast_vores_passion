@@ -51,7 +51,7 @@ function visOste() {
     if (filter == ost.type || filter == "alle") {
       let klon = template.cloneNode(true);
       klon.querySelector(".navn").textContent = ost.navn;
-      klon.querySelector(".type").textContent = ost.type;
+      klon.querySelector(".type").textContent = "Type: " + ost.type;
       klon.querySelector(".land").textContent = "Land: " + ost.land;
       klon.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
       klon

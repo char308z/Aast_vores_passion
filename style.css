@@ -12,17 +12,26 @@ h1 {
   font-family: "ltc-bodoni-175", serif;
   font-weight: lighter;
   font-style: normal;
+  color: #333;
 }
 
 h2 {
   font-family: "ltc-bodoni-175", serif;
   font-weight: 400;
   font-style: italic;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #333;
 }
 
 p {
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  color: #333;
 }
 
 .somelogo {
