@@ -49,8 +49,8 @@ header {
 
 #bmenu {
   position: absolute;
-  top: 0%;
-  right: 0%;
+  top: 3%;
+  right: 3%;
   z-index: 3;
 }
 
@@ -103,11 +103,13 @@ nav ul {
 }
 
 nav ul a {
+  display: flex;
+  justify-content: center;
   color: #fffef2;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
-  padding: 15%;
+  padding: 5%;
   cursor: pointer;
 }
 
@@ -197,5 +199,10 @@ h4 {
     border-radius: 5px;
     text-align: center;
     padding: 1%;
+  }
+
+  #bmenu {
+    top: 0.5%;
+    right: 2%;
   }
 }
