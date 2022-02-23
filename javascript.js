@@ -53,7 +53,7 @@ function visOste() {
       klon.querySelector(".navn").textContent = ost.navn;
       klon.querySelector(".type").textContent = "Type: " + ost.type;
       klon.querySelector(".land").textContent = "Land: " + ost.land;
-      klon.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
+      klon.querySelector("img").src = "billeder/" + ost.billednavn + ".webp";
       klon
         .querySelector("article")
         .addEventListener("click", () => visDetaljer(ost));
@@ -70,7 +70,7 @@ function visDetaljer(ost) {
   popup.querySelector(".type").textContent = ost.type;
   popup.querySelector(".alder").textContent = "Modnings periode: " + ost.alder;
   popup.querySelector(".land").textContent = "Land: " + ost.land;
-  popup.querySelector("img").src = "billeder/" + ost.billednavn + ".jpg";
+  popup.querySelector("img").src = "billeder/" + ost.billednavn + ".webp";
 }
 
 popup
