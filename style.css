@@ -127,6 +127,10 @@ nav ul a {
   cursor: pointer;
 }
 
+#bmenu:hover {
+  transform: scale(1.05);
+}
+
 /*FOOTER*/
 
 footer {
