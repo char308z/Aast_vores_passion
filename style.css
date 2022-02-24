@@ -193,7 +193,7 @@ h4 {
 }
 @media (max-width: 900px) {
   #bmenu {
-    top: -10px;
+    top: -15px;
     right: 2%;
   }
 }
@@ -227,7 +227,7 @@ h4 {
   }
 
   #bmenu {
-    top: -5px;
+    top: -6px;
     right: 2%;
   }
   h1 {
